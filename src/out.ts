@@ -1,1 +1,1 @@
-console.log(course);
+// console.log(course);

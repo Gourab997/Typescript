@@ -1,22 +1,22 @@
-const searchName =(value:string | null) => {
-    if (value === null){
-        console.log("value is null")
-    }
-    else {
-        console.log("value is not null")
-    }
+// const searchName =(value:string | null) => {
+//     if (value === null){
+//         console.log("value is null")
+//     }
+//     else {
+//         console.log("value is not null")
+//     }
 
-    }
+//     }
 
-    searchName("Alice")
+//     searchName("Alice")
 
-    const  searchName2 = (value:unknown) => {
-        if (typeof value === "string"){
-            console.log("value is string")
-        }
-        else {
-            console.log("value is not string")
-        }
-    }
-    searchName2("Alice")
-    searchName2(2)
+//     const  searchName2 = (value:unknown) => {
+//         if (typeof value === "string"){
+//             console.log("value is string")
+//         }
+//         else {
+//             console.log("value is not string")
+//         }
+//     }
+//     searchName2("Alice")
+//     searchName2(2)
